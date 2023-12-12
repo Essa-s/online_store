@@ -28,7 +28,7 @@ urlpatterns = [
     path('women/', include('women.urls')),
     path('accessories/', include('accessories.urls')),
     path('contactus/', include('contactus.urls')),
-    
+    path('single/', include('single.urls')),
     path('about/', include('about.urls')),
     path('admin/', admin.site.urls),
 

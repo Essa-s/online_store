@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'accessories',
     'about',
     'contactus',
+    'single',
     'django_forms_bootstrap',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -45,7 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    'django_cleanup.apps.CleanupConfig',
     # my apps
 
     'django_bootstrap5',
